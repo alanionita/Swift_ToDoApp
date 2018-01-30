@@ -49,6 +49,7 @@
 		6B5F6F512020A7C000FD6101 /* ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5F6F552020A7C000FD6101 /* ToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppUITests.swift; sourceTree = "<group>"; };
 		6B5F6F572020A7C000FD6101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5F6F632020B70400FD6101 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		6B5F6F272020A7BF00FD6101 = {
 			isa = PBXGroup;
 			children = (
+				6B5F6F632020B70400FD6101 /* README.md */,
 				6B5F6F322020A7BF00FD6101 /* ToDoApp */,
 				6B5F6F492020A7C000FD6101 /* ToDoAppTests */,
 				6B5F6F542020A7C000FD6101 /* ToDoAppUITests */,
