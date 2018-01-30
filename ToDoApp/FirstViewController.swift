@@ -8,9 +8,9 @@
 
 import UIKit
 
-class FirstViewController: UIViewController, UITabBarDelegate, UITableViewDataSource  {
+var list = ["buy milk", "run 5miles", "find Wally", "plant my plants"]
 
-    var list = ["buy milk", "run 5miles", "find Wally", "plant my plants"]
+class FirstViewController: UIViewController, UITabBarDelegate, UITableViewDataSource  {
     
     @IBOutlet weak var myTableView: UITableView!
     
@@ -28,11 +28,14 @@ class FirstViewController: UIViewController, UITabBarDelegate, UITableViewDataSo
         
         if editingStyle == UITableViewCellEditingStyle.delete
         {
-            self.list.remove(at: indexPath.row)
+            list.remove(at: indexPath.row)
             myTableView.reloadData()
         }
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        myTableView.reloadData()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
