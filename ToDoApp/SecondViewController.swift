@@ -12,11 +12,14 @@ class SecondViewController: UIViewController {
 
     @IBOutlet weak var input: UITextField!
     
+    
+    
     @IBAction func addItem(_ sender: Any) {
         if(input.text != "")
         {
             list.append(input.text!)
             input.text = ""
+            self.tabBarController?.selectedIndex = 0
         }
     }
     
